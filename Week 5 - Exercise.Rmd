@@ -28,3 +28,13 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+list1 <- list(observationA = c(1:5, 7:3), observationB=matrix(1:6, nrow=2))
+# Example, question 21
+lapply(list1, length)
+
+lapply(list1, dim)
+
+```
+
